@@ -560,7 +560,8 @@ section {
 		About
 --------------------------------------------------------------*/
 .about {
-	background: url("../img/about-bg.jpg") center center;
+	/* background: url("../img/about-bg.jpg")center; */
+	background-color: #0f194e;
 	background-size: cover;
 	position: relative;
 	padding: 80px 0;
@@ -569,7 +570,7 @@ section {
 }
 .about:before {
 	content: "";
-	background: rgba(0, 0, 0, 0.7);
+	/* background: rgba(0, 0, 0, 0.7); */
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -920,7 +921,7 @@ section {
 	transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-	background: #eaa023;
+	background: #eed3a6;
 	color: #fff;
 	text-decoration: none;
 }
